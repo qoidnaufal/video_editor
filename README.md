@@ -1,10 +1,10 @@
 # WIP
-Originally, I'm very impressed by QuickTime video player's low CPU usage.<br>
+Originally, I'm very impressed by QuickTime video player's low CPU usage.
 This motivates me to try to play around with Swift and AVKit. So far this doesn't dissapoint me.<br>
-So, maybe, instead of fighting to get the best performance with Ffmpeg and Rust's any GUI framework, maybe I'll just use SwiftUI & AVKit.<br>
+So, maybe, instead of fighting to get the best performance with Ffmpeg and Rust's any GUI framework, maybe I'll just use SwiftUI & AVKit.
 And maybe later add some functionality with Rust.<br>
 
-### Info
+### Compiling
 To compile: `swiftc -framework AVKit -o <whatever_file_name_you_want>` and run with `./<whatever_file_name_you_use>`.<br>
 The `-framework AVKit` is super important if you don't use XCode like I did.<br>
 Some functions have compatibility issue with different macOS versions, so it's important to add `platforms: [.macOS(.<latest_version>)]` in `Package.swift`
